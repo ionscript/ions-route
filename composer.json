@@ -1,0 +1,40 @@
+{
+    "name": "ionscript/ions-route",
+    "description": "provides interface for MVC routing",
+    "license": "GPL-3.0+",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Serge Shportko",
+            "email": "ionscript.inc@gmail.com"
+        }
+    ],
+    "keywords": [
+        "ions",
+        "mvc",
+        "routing"
+    ],
+    "homepage": "https://github.com/ionscript/ions-route",
+    "autoload": {
+        "psr-4": {
+            "Ions\\Route\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "ionscript/ions-http": "master",
+        "ionscript/ions-std": "master"
+    },
+    "require-dev": {},
+    "autoload-dev": {},
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ionscript/ions-http.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/ionscript/ions-std.git"
+        }
+    ]
+}
