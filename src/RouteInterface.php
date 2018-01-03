@@ -1,10 +1,10 @@
 <?php
 
-namespace Ions\Router;
+namespace Ions\Route;
 
 /**
  * Interface RouteInterface
- * @package Ions\Router
+ * @package Ions\Route
  */
 interface RouteInterface
 {

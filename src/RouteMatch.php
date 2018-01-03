@@ -1,10 +1,10 @@
 <?php
 
-namespace Ions\Router;
+namespace Ions\Route;
 
 /**
  * Class RouteMatch
- * @package Ions\Router
+ * @package Ions\Route
  */
 class RouteMatch
 {

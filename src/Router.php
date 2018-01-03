@@ -1,12 +1,12 @@
 <?php
 
-namespace Ions\Router;
+namespace Ions\Route;
 
 use Ions\Std\PriorityList;
 
 /**
  * Class Router
- * @package Ions\Router
+ * @package Ions\Route
  */
 class Router
 {

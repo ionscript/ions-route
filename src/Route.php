@@ -1,12 +1,12 @@
 <?php
 
-namespace Ions\Router;
+namespace Ions\Route;
 
 use Ions\Std\RequestInterface;
 
 /**
  * Class Route
- * @package Ions\Router
+ * @package Ions\Route
  */
 class Route implements RouteInterface
 {
