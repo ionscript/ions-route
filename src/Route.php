@@ -97,6 +97,23 @@ class Route implements RouteInterface
     }
 
     /**
+     * @return array
+     */
+    public function getDefaults()
+    {
+        return $this->defaults;
+    }
+
+    /**
+     * @param array $defaults
+     * @return void
+     */
+    public function setDefaults($defaults)
+    {
+        $this->defaults = $defaults;
+    }
+
+    /**
      * @param $route
      * @return array
      * @throws \RuntimeException
