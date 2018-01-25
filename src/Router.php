@@ -17,9 +17,8 @@ class Router
 
     /**
      * Router constructor.
-     * @param null $route
      */
-    public function __construct($route = null)
+    public function __construct()
     {
         $this->routes = new PriorityList();
     }
@@ -70,6 +69,7 @@ class Router
      * @param $route
      * @param null $priority
      * @return $this
+     * @throws \InvalidArgumentException
      */
     public function addRoute($name, $route, $priority = null)
     {
@@ -99,6 +99,7 @@ class Router
     /**
      * @param $routes
      * @return $this
+     * @throws \InvalidArgumentException
      */
     public function setRoutes($routes)
     {
